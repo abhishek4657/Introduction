@@ -10,7 +10,7 @@ public final class Test4{
     	int[] a = {1};
     	Test4 t = new Test4();
     	t.increment(a);
-    	System.out.println(a[a.length-1]);
+    	System.out.println("Hello: "+a[a.length-1]);
     	
     }
     
