@@ -9,7 +9,7 @@ public class Vowel {
 		System.out.println("Enter a String: ");
 		String s = in.nextLine();
 		
-		System.out.println("Your entered String is: "+s);
+		System.out.println("Your entered string is:  "+s);
 		String s2 = s.toLowerCase();
 		System.out.println("The vowel count in your entered string is:" + vowelCount(s2));
 	}
